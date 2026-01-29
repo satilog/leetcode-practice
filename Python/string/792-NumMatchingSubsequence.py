@@ -1,6 +1,7 @@
 from typing import List
 
 
+# Very slow solution
 class Solution:
     def numMatchingSubseq(self, s, words: List[str]) -> int:
         count = 0
